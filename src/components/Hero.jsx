@@ -93,7 +93,7 @@ export default function Hero() {
               <Badge emoji="🎓" text="MANIT BHOPAL" color="0,212,255" />
 
               {/* ── FiNIT badge (NEW) ── */}
-              <Badge emoji="🏦" text="FiNIT — THE STUDENT FINANCE CLUB" color="255,184,0" />
+              <Badge emoji="🏦" text="FiNIT — THE STUDENT FINANCE CLUB MANIT BHOPAL" color="255,184,0" />
             </div>
           </div>
 

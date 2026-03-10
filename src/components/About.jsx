@@ -15,7 +15,7 @@ export default function About() {
             I'm a <span style={{ color:'#00D4FF', fontWeight:600 }}>final year CSE student at {PERSONAL.university}</span> living at the crossroads of software engineering, AI, and financial markets. My work spans full-stack applications, data analytics, and systematic trading.
           </p>
           <p style={{ color:'#94A3B8', lineHeight:1.9, fontSize:14.5, fontFamily:'Outfit,sans-serif', marginBottom:14 }}>
-            As Co-Founder &amp; Fintech Head of <span style={{ color:'#FFB800', fontWeight:700 }}>FiNIT — The Student Finance Club</span> at MANIT, I lead sessions on algorithmic trading, derivatives, and financial modeling for 80+ members.
+            As Co-Founder &amp; Fintech Head of <span style={{ color:'#FFB800', fontWeight:700 }}>FiNIT — The Student Finance Club</span> at MANIT, I lead sessions on algorithmic trading, derivatives, and financial modeling for 30+ members.
           </p>
           <p style={{ color:'#94A3B8', lineHeight:1.9, fontSize:14.5, fontFamily:'Outfit,sans-serif', marginBottom:28 }}>
             I actively trade <span style={{ color:'#00FF88', fontWeight:600 }}>Indian F&amp;O, Forex, MCX &amp; Crypto</span> using systematic strategies. My mission: build AI-powered fintech platforms leveraging Web3 and advanced analytics.
