@@ -18,10 +18,39 @@ function Card({ p, index }) {
       <div style={{ display:'flex', flexWrap:'wrap', gap:6 }}>
         {p.tags.map(t=><span key={t} style={{ background:p.color+'12', color:p.color, border:`1px solid ${p.color}35`, borderRadius:6, padding:'3px 10px', fontSize:11, fontFamily:'Fira Code,monospace' }}>{t}</span>)}
       </div>
-      <a href={p.link} target="_blank" rel="noopener noreferrer"
-        style={{ position:'absolute', top:18, right:18, color:p.color, fontSize:12, fontFamily:'Fira Code,monospace', opacity:hov?1:0, transition:'opacity 0.3s ease', textDecoration:'none' }}>
-        GitHub ↗
-      </a>
+      <div style={{ position:'absolute', top:18, right:18, display:'flex', gap:10, opacity:hov?1:0, transition:'opacity 0.3s ease' }}>
+
+        <a
+          href={p.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color:p.color,
+            fontSize:12,
+            fontFamily:'Fira Code,monospace',
+            textDecoration:'none'
+          }}
+        >
+          GitHub ↗
+        </a>
+
+        {p.live && (
+          <a
+            href={p.live}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+            color:'#00FF88',
+            fontSize:12,
+            fontFamily:'Fira Code,monospace',
+            textDecoration:'none'
+          }}
+        >
+          Live ↗
+        </a>
+      )}
+
+    </div>
     </div>
   )
 }
