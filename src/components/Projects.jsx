@@ -40,7 +40,7 @@ function Card({ p, index }) {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-            color:'#00FF88',
+            color:p.color,
             fontSize:12,
             fontFamily:'Fira Code,monospace',
             textDecoration:'none'
