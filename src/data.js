@@ -89,11 +89,12 @@ export const SKILLS_DATA = {
 export const PROJECTS = [
   {
     title: 'AI Mock Interview Platform',
-    desc:  'Full-stack AI-powered mock interview platform with real-time question generation, scoring, and NLP feedback. Built with React, TypeScript, Firebase & OpenAI API.',
-    tags:  ['React', 'TypeScript', 'Firebase', 'OpenAI'],
+    desc:  'Full-stack AI-powered mock interview platform with real-time question generation, scoring, and NLP feedback. Built with React, TypeScript, Firebase & Gemini API.',
+    tags:  ['React', 'TypeScript', 'Firebase', 'GEMINI AI'],
     icon:  '🤖',
     color: '#00D4FF',
-    link:  'https://github.com/dileepbhargav89',
+    link:  'https://github.com/dileepbhargav89/ai-mock-interview-platform',
+    live: 'https://ai-mock-interview-platform-sandy.vercel.app'
   },
   {
     title: 'Movie Recommendation System',
