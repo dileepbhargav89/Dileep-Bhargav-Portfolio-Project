@@ -6,7 +6,7 @@ export const PERSONAL = {
   initials:   'DB',
   title:      'Final year CSE student',      // ← UPDATED
   university: 'MANIT Bhopal',
-  cgpa:       '6.33',                        // ← UPDATED
+  cgpa:       '6.46',                        // ← UPDATED
   club:       'FiNIT — The Student Finance Club',
   location:   'Bhopal, Madhya Pradesh, India',
   email:      'dileepbhargav722@gmail.com',
@@ -23,7 +23,7 @@ export const PERSONAL = {
 export const ROLES = [
   'Full-Stack Developer',
   'Derivatives Trader',
-  'Fintech Innovator',
+  'Fintech Innovator,
   'AI Engineer',
   'Quant Strategist',
   'Data Analyst',
